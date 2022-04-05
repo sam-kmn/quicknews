@@ -1,0 +1,45 @@
+@import "bootstrap/scss/functions";
+@import 'bootstrap/scss/variables';
+
+
+
+.articles{
+  background-color: $gray-200;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article{
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  padding-left: 1rem;
+  justify-content: space-between;
+
+  &:hover{color: black;}
+
+  .date{
+    font-family: 'Quicksand';
+    font-size: .8rem;
+    padding-top: 1rem;
+    color: gray;
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .desc{
+    font-size: .9rem;
+  }
+
+  img{
+    border-radius: 1rem;
+  }
+
+}

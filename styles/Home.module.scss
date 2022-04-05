@@ -1,0 +1,12 @@
+@import "bootstrap/scss/functions";
+@import 'bootstrap/scss/variables';
+
+
+
+.articles{
+  background-color: $gray-200;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

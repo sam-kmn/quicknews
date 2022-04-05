@@ -1,0 +1,12 @@
+
+@import "bootstrap/scss/functions";
+@import 'bootstrap/scss/variables';
+
+
+.loading{
+  background-color: $gray-200;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
