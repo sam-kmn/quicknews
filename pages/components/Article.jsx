@@ -1,6 +1,7 @@
 import styles from '../../styles/Article.module.scss'
 // import '../../styles/Link.module.scss'
 import {useState, useEffect} from 'react'
+// import Image from 'next/image'
 
 const Article = ({data, ...props}) => {
   

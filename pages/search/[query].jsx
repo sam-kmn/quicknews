@@ -17,7 +17,7 @@ export default function Search(){
     ky.get(`https://newsapi.org/v2/everything?q=${query}&apiKey=${process.env.API_KEY}&pageSize=${pageSize}`)
       .then(res => res.json())
       .then(data => setData(data))
-      .catch(() => router.push('/404'))
+      // .catch(() => router.push('/404'))
   }, [query, pageSize])
 
   return (
