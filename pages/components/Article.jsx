@@ -1,6 +1,6 @@
+import {useState, useEffect} from 'react'
 import styles from '../../styles/Article.module.scss'
 // import '../../styles/Link.module.scss'
-import {useState, useEffect} from 'react'
 // import Image from 'next/image'
 
 const Article = ({data, ...props}) => {
@@ -12,7 +12,7 @@ const Article = ({data, ...props}) => {
   }, [data])
   
 
-  return (
+  return ( data ? (
     <div {...props} >
       <a href={data.url} className={`row ${styles.article} p-0`}>
 
@@ -26,7 +26,7 @@ const Article = ({data, ...props}) => {
           <img src={data.urlToImage} className="img-fluid p-0 p-xl-2" alt="" />
         </div>
       </a>
-    </div>
+    </div> ) : <></>
   )
 }
 
