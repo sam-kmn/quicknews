@@ -16,7 +16,6 @@ export async function getStaticProps(){
 }
 
 export default function Home({data}) {
-  // const test = []
   return (
     <div>
       <Header className='d-flex align-items-center justify-content-center'>
