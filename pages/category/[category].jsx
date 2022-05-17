@@ -4,8 +4,7 @@ import ArticleList from "../components/ArticleList"
 import SelectCategory from "../components/SelectCategory"
 
 export async function getServerSideProps(context){
-  const {params} = context
-  const {category} = params
+  const {category} = context.params
   const res = await ky.get(`https://newsapi.org/v2/top-headlines?category=${category}&country=pl&apiKey=${process.env.API_KEY}`)
   const data = await res.json()
 
