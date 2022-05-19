@@ -1,6 +1,6 @@
 import Article from "./Article"
 import Loading from "./Loading"
-import styles from '../../styles/Article.module.scss'
+import styles from '../styles/Article.module.scss'
 
 export default function ArticleList({data, children}){
 

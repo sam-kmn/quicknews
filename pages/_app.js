@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 // import Script from 'next/script'
-import Footer from './components/Footer'
-import Navbar from "./components/Navbar"
+import Footer from '../components/Footer'
+import Navbar from "../components/Navbar"
 
 function MyApp({ Component, pageProps }) {
   return (<>

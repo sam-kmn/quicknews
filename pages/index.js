@@ -1,7 +1,7 @@
 import ky from 'ky'
-import Header from './components/Header'
-import ArticleList from './components/ArticleList'
-import SelectCategory from './components/SelectCategory'
+import Header from '../components/Header'
+import ArticleList from '../components/ArticleList'
+import SelectCategory from '../components/SelectCategory'
 
 export async function getStaticProps(){
   const res = await ky.get('https://newsapi.org/v2/top-headlines?country=us&apiKey='+process.env.API_KEY)

@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import styles from '../../styles/Article.module.scss'
+import styles from '../styles/Article.module.scss'
 // import '../../styles/Link.module.scss'
 // import Image from 'next/image'
 

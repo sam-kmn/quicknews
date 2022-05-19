@@ -1,6 +1,6 @@
 import Search from './Search'
-import styles from '../../styles/Navbar.module.scss'
-import LinkStyles from '../../styles/Link.module.scss'
+import styles from '../styles/Navbar.module.scss'
+import LinkStyles from '../styles/Link.module.scss'
 
 const Navbar = () => {
 

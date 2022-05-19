@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { useRouter } from 'next/router'
 import {FiSearch} from 'react-icons/fi'
-import styles from '../../styles/Search.module.scss'
+import styles from '../styles/Search.module.scss'
 
 export default function Search(){
   const [filter, setFilter] = useState('')
