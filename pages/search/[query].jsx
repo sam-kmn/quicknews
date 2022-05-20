@@ -1,6 +1,6 @@
 import ky from 'ky'
-import Header from '../components/Header'
-import ArticleList from "../components/ArticleList"
+import Header from '../../components/Header'
+import ArticleList from "../../components/ArticleList"
 
 export async function getServerSideProps(context){
   const {query} = context.params

@@ -24,7 +24,7 @@ export default function Category({data, language, category}) {
   const router = useRouter()
   useEffect(() => {
     if (data === null) router.push('/')
-  }, [data])
+  }, [data, router])
 
   return isNaN(data) && (
     <div> 
